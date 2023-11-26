@@ -1,13 +1,11 @@
-package com.tsm.ticketsalesmanagement;
+package com.tsm;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TicketSalesManagementApplication {
-
+public class CityApplication {
     public static void main(String[] args) {
-        SpringApplication.run(TicketSalesManagementApplication.class, args);
+        SpringApplication.run(CityApplication.class , args);
     }
-
 }
